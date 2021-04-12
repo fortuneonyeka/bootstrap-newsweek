@@ -46,6 +46,24 @@
   display: none;
 }
 
+
+.footer_logo {
+  width: 190px;
+}
+
+.social_media_footer {
+  width: 26px;
+  border: 1px solid gray;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.social_media_footer:hover {
+  background-color: gray;
+}
+
+
 @media screen and (min-width: 760px) {
   .list_icon {
     display: none;
