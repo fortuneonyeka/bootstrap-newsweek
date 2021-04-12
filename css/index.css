@@ -1,0 +1,157 @@
+.nav {
+  background-color: #f72210;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  width: 132px;
+  height: 40px;
+  font-size: 160%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-nav-logo {
+  width: 131px;
+}
+
+.li-bg {
+  background-color: #f72210;
+}
+
+.ul-list {
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.login {
+  display: none;
+}
+
+.login_img,
+.menu_img {
+  width: 21px;
+  height: 30px;
+}
+
+.date {
+  display: none;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.nav-fast-link {
+  display: none;
+}
+
+@media screen and (min-width: 760px) {
+  .list_icon {
+    display: none;
+  }
+
+  .social_media {
+    text-align: right;
+  }
+}
+
+
+@media screen and (min-width: 992px) {
+  .top-nav-title {
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .top-nav-logo {
+    width: 395px;
+  }
+
+  .profile_icon,
+  .list_icon {
+    display: none;
+  }
+
+  .menu {
+    margin-top: 40px;
+  }
+
+  .ul-list {
+    margin-top: 20px;
+  }
+
+  .nav-menu-link {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+    color: black;
+  }
+
+  .nav-menu-link:hover {
+    color: red;
+  }
+
+  .login {
+    display: flex;
+    font-size: 12px;
+    line-height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+  }
+
+  .login a:hover {
+    color: black;
+  }
+
+  .date {
+    display: flex;
+  }
+
+  .nav_img {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    width: 100%;
+  }
+
+  .search {
+    width: 80px;
+    outline: none;
+    border: none;
+  }
+
+  .search_icon {
+    display: flex;
+    float: right;
+    position: relative;
+    height: 10px;
+    bottom: 18px;
+    left: 5px;
+  }
+
+  .nav-fast-link {
+    display: flex;
+    width: 90%;
+  }
+
+  .fast-link {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+    color: black;
+  }
+
+  .fast-link-item {
+    color: #6c757d;
+  }
+
+  .fast-link:hover {
+    color: red;
+  }
+}
