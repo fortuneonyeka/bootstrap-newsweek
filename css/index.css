@@ -46,7 +46,6 @@
   display: none;
 }
 
-
 .footer_logo {
   width: 190px;
 }
@@ -63,7 +62,6 @@
   background-color: gray;
 }
 
-
 @media screen and (min-width: 760px) {
   .list_icon {
     display: none;
@@ -73,7 +71,6 @@
     text-align: right;
   }
 }
-
 
 @media screen and (min-width: 992px) {
   .top-nav-title {
