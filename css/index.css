@@ -64,7 +64,7 @@
 
 @media screen and (min-width: 760px) {
   .list_icon {
-    display: none;
+    display: block;
   }
 
   .social_media {
