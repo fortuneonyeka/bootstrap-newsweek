@@ -46,6 +46,13 @@
   display: none;
 }
 
+.nav-fast-link ul li {
+  text-align: center;
+    margin: auto 0 auto 0;
+    font-weight: 700;
+    padding: 10px;
+}
+
 .footer_logo {
   width: 190px;
 }
@@ -64,7 +71,8 @@
 
 @media screen and (min-width: 760px) {
   .list_icon {
-    display: block;
+    margin-top: 5px;
+    display: inline;
   }
 
   .social_media {
@@ -96,11 +104,15 @@
   }
 
   .nav-menu-link {
-    font-size: 15px;
-    line-height: 24px;
-    font-weight: bold;
-    font-family: "Roboto Condensed", sans-serif;
     color: black;
+  }
+
+  .nav-menu ul li {
+    text-align: center;
+    margin: auto 0 auto 0;
+    font-weight: 700;
+    padding: 10px;
+    font-family: "Roboto Condensed", sans-serif;
   }
 
   .nav-menu-link:hover {
@@ -155,8 +167,7 @@
   }
 
   .fast-link {
-    font-size: 13px;
-    line-height: 24px;
+    font-size: 12px;
     font-weight: bold;
     font-family: "Roboto Condensed", sans-serif;
     color: black;
