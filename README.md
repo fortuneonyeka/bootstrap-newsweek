@@ -29,7 +29,7 @@ Desktop Version :
 
 ## Live Demo 👀
 
-[Live Demo Link]()
+[Live Demo Link](https://github.com/fortuneonyeka/bootstrap-newsweek/blob/news-week)
 
 ### Install
 
