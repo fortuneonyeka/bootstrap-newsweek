@@ -7,10 +7,14 @@
   color: white;
   width: 132px;
   height: 40px;
-  font-size: 160%;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
+.nav a,
+.nav p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
 .top-nav-logo {
   width: 131px;
 }
@@ -32,10 +36,6 @@
 .menu_img {
   width: 21px;
   height: 30px;
-}
-
-.date {
-  display: none;
 }
 
 .nav-menu {
@@ -317,10 +317,6 @@ h4 {
 
   .login a:hover {
     color: black;
-  }
-
-  .date {
-    display: flex;
   }
 
   .nav_img {
