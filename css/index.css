@@ -43,6 +43,14 @@ h4 a:hover {
   background-color: #f72210;
 }
 
+.list_icon {
+  width: 30px;
+}
+
+.profile_icon {
+  width: 25px;
+}
+
 .ul-list {
   width: 100%;
   justify-content: flex-end;
