@@ -2,17 +2,19 @@
   background-color: #f72210;
 }
 
+h6 a,
+h4 a,
+h5 p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  color: #000;
+}
+
 .nav a {
   text-decoration: none;
   color: white;
   width: 132px;
   height: 40px;
-}
-
-h6 a, h4 a, h5 p {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 700;
-  color: #000;
 }
 
 .nav a,
@@ -64,6 +66,24 @@ h6 a, h4 a, h5 p {
   font-weight: 400;
 }
 
+.top_storie_category a {
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.versus a {
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  padding: 3px;
+  position: absolute;
+  margin-top: -30px;
+}
+
+.magazin-category a {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
 .navtext-footer p a {
   color: #666;
   font-family: Arial, Helvetica, sans-serif;
@@ -101,11 +121,6 @@ h4 {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-.top_storie_category a {
-  font-size: 17px;
-  font-weight: 900;
-}
-
 .myturn_img {
   width: 100px;
 }
@@ -136,15 +151,6 @@ h4 {
 
 .debate-info {
   width: 78%;
-}
-
-.versus a {
-  border: 1px solid black;
-  color: white;
-  background-color: black;
-  padding: 3px;
-  position: absolute;
-  margin-top: -30px;
 }
 
 .opinion-con {
@@ -188,10 +194,6 @@ h4 {
 
 .magazin-category {
   margin-top: -20px;
-}
-
-.magazin-category a {
-  background-color: rgba(255, 255, 255, 0.9);
 }
 
 #one {
