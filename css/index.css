@@ -48,9 +48,9 @@
 
 .nav-fast-link ul li {
   text-align: center;
-    margin: auto 0 auto 0;
-    font-weight: 700;
-    padding: 10px;
+  margin: auto 0 auto 0;
+  font-weight: 700;
+  padding: 10px;
 }
 
 .footer_logo {
@@ -58,6 +58,7 @@
 }
 
 .social_media_footer {
+  display: inline;
   width: 26px;
   border: 1px solid gray;
   padding: 2px;
@@ -70,20 +71,36 @@
 }
 
 @media screen and (min-width: 760px) {
+
   .list_icon {
     margin-top: 5px;
     display: inline;
   }
 
   .social_media {
-    text-align: right;
+    margin-top: -8%;
+    margin-right: -160%;
+    margin-bottom: -2%;
+    padding-left: 85px;
+    list-style: none;
+    display: inline-flex;
+    float: right;
   }
-}
+
+  .footericons {
+    position: relative;
+    padding-top: 100px;
+  }
 
 @media screen and (min-width: 992px) {
   .top-nav-title {
     text-align: center;
     margin-top: 5px;
+  }
+
+  .social_media ul {
+    list-style: none;
+    display: inline-flex;
   }
 
   .top-nav-logo {
@@ -105,6 +122,14 @@
 
   .nav-menu-link {
     color: black;
+  }
+
+  .footer-text span {
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #666;
   }
 
   .nav-menu ul li {
