@@ -2,12 +2,23 @@
   background-color: #f72210;
 }
 
-h6 a,
+h6,
 h4 a,
 h5 p {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
   color: #000;
+  letter-spacing: 0.5px;
+}
+
+.txt1 a:hover {
+  color: #000;
+  text-decoration: underline red 1px;
+}
+
+h4 a:hover {
+  color: #000;
+  text-decoration: underline red 2px;
 }
 
 .nav a {
@@ -66,9 +77,11 @@ h5 p {
   font-weight: 400;
 }
 
-.top_storie_category a {
+.top_storie_category a,
+.top_storie_category a:hover {
   font-size: 17px;
   font-weight: 900;
+  color: #F72210;
 }
 
 .versus a {
