@@ -70,6 +70,104 @@
   background-color: gray;
 }
 
+
+.top_storie_img {
+  width: 345px;
+}
+
+.top_img {
+  width: 345px;
+}
+
+.top_storie_category {
+  width: 80px;
+  position: absolute;
+  margin-top: -25px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.top_storie_category a {
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.myturn_img {
+  width: 100px;
+}
+
+.myturn_img_phone {
+  width: 320px;
+}
+
+.morestories_img {
+  width: 100px;
+  height: 90px;
+}
+
+.sponsor_img,
+.sponsor {
+  width: 340px;
+}
+
+.sponsor_category {
+  width: 110px;
+  background-color: #ffffe6;
+  margin-top: -25px;
+}
+
+
+.the-debate-profile-img {
+  width: 20%;
+}
+
+.debate-info {
+  width: 78%;
+}
+
+.versus a {
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  padding: 3px;
+  position: absolute;
+  margin-top: -30px;
+}
+
+.opinion-con {
+  height: 100px;
+}
+
+.opinion-img {
+  height: 80px;
+}
+
+.opinion-info {
+  width: 75%;
+}
+
+.signup {
+  width: 350px;
+  height: 200px;
+}
+
+.signup-card {
+  width: 280px;
+  height: 150px;
+}
+
+.sign-up-img {
+  width: 30px;
+  padding-top: 20px;
+  margin-left: 15px;
+}
+
+.sign-up-info {
+  width: 240px;
+  font-size: 15px;
+}
+
+
+
 @media screen and (min-width: 760px) {
   .list_icon {
     margin-top: 5px;
