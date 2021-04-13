@@ -9,15 +9,15 @@ The next project is to check out more about Responsive design using bootstrap an
 Screenshots :
 Phone Version :
 
-![screenshot](./img/screenshot/phone.png)
+![screenshot](./img/mobilescreenshot.png)
 
 Tablet Version :
 
-![screenshot](./img/screenshot/tablet.png)
+![screenshot](./img/tabletscreenshot.png)
 
 Desktop Version :
 
-![screenshot](./img/screenshot/desktop.png)
+![screenshot](./img/desktopscreenshot.png)
 
 
 ## Built With 🔨
