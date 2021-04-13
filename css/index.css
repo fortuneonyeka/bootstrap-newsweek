@@ -30,13 +30,6 @@ h5 p {
   color: #f72210;
 }
 
-.nav a {
-  text-decoration: none;
-  color: white;
-  width: 132px;
-  height: 40px;
-}
-
 h4 a:hover {
   color: #000;
   text-decoration: underline red 2px;
@@ -46,6 +39,13 @@ h4 a:hover {
   color: #666;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  width: 132px;
+  height: 40px;
 }
 
 .top_storie_category a:hover {
