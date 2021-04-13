@@ -24,16 +24,16 @@ h5 p {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-h4 a:hover {
-  color: #000;
-  text-decoration: underline red 2px;
-}
-
 .nav a {
   text-decoration: none;
   color: white;
   width: 132px;
   height: 40px;
+}
+
+h4 a:hover {
+  color: #000;
+  text-decoration: underline red 2px;
 }
 
 .navtext-footer p a {
