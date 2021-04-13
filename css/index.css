@@ -50,6 +50,29 @@
   width: 190px;
 }
 
+.footer-text span {
+  font-size: 12px;
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.navtext-footer p a{
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+h6 a, h4 a, h5 p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  color: #000;
+}
+
+h4 {
+  line-height: 24px;
+}
+
 .social_media_footer {
   width: 26px;
   border: 1px solid gray;
