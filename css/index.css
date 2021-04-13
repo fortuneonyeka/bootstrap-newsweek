@@ -11,13 +11,6 @@ h5 p {
   letter-spacing: 0.5px;
 }
 
-.nav a {
-  text-decoration: none;
-  color: white;
-  width: 132px;
-  height: 40px;
-}
-
 .versus a {
   border: 1px solid black;
   color: white;
@@ -31,10 +24,9 @@ h5 p {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-.navtext-footer p a {
-  color: #666;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+h4 a:hover {
+  color: #000;
+  text-decoration: underline red 2px;
 }
 
 .top_storie_category a,
@@ -44,9 +36,17 @@ h5 p {
   color: #f72210;
 }
 
-h4 a:hover {
-  color: #000;
-  text-decoration: underline red 2px;
+.navtext-footer p a {
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  width: 132px;
+  height: 40px;
 }
 
 .txt1 a:hover {
