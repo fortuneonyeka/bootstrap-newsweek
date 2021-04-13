@@ -46,19 +46,11 @@
   display: none;
 }
 
-.nav-fast-link ul li {
-  text-align: center;
-  margin: auto 0 auto 0;
-  font-weight: 700;
-  padding: 10px;
-}
-
 .footer_logo {
   width: 190px;
 }
 
 .social_media_footer {
-  display: inline;
   width: 26px;
   border: 1px solid gray;
   padding: 2px;
@@ -69,7 +61,6 @@
 .social_media_footer:hover {
   background-color: gray;
 }
-
 
 .top_storie_img {
   width: 345px;
@@ -114,7 +105,6 @@
   background-color: #ffffe6;
   margin-top: -25px;
 }
-
 
 .the-debate-profile-img {
   width: 20%;
@@ -166,27 +156,94 @@
   font-size: 15px;
 }
 
+.culture_category {
+  position: absolute;
+  margin-top: -23px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
 
+.magazin-category {
+  margin-top: -20px;
+}
+
+.magazin-category a {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#one {
+  position: relative;
+  top: 50px;
+  right: 80px;
+}
+
+.img-sub {
+  width: 32%;
+  height: 350px;
+}
+
+.newsletter {
+  height: 350px;
+}
 
 @media screen and (min-width: 760px) {
   .list_icon {
-    margin-top: 5px;
-    display: inline;
+    display: none;
   }
 
   .social_media {
-    margin-top: -8%;
-    margin-right: -160%;
-    margin-bottom: -2%;
-    padding-left: 85px;
-    list-style: none;
-    display: inline-flex;
-    float: right;
+    text-align: right;
   }
 
-  .footericons {
-    position: relative;
-    padding-top: 100px;
+  .sponsor {
+    width: 350px;
+  }
+
+  .sponsor_img {
+    width: 350px;
+  }
+
+  .sponsor_category {
+    width: 110px;
+    background-color: #ffffe6;
+    margin-top: -23px;
+  }
+
+  .signup {
+    background-color: #f4f5f6;
+  }
+
+  .sign-up-img {
+    width: 30px;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .sign-up-info {
+    width: 290px;
+    font-size: 19px;
+    color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 0 15px;
+  }
+
+  .sign-up-btn {
+    background-color: #f61602;
+    width: 200px;
+    margin-top: 8px;
+  }
+
+  .input-sign {
+    width: 200px;
+  }
+
+  .banner {
+    width: 100%;
+  }
+
+  .img-sub {
+    width: 36%;
+    height: 50%;
   }
 }
 
@@ -194,11 +251,6 @@
   .top-nav-title {
     text-align: center;
     margin-top: 5px;
-  }
-
-  .social_media ul {
-    list-style: none;
-    display: inline-flex;
   }
 
   .top-nav-logo {
@@ -219,23 +271,11 @@
   }
 
   .nav-menu-link {
-    color: black;
-  }
-
-  .footer-text span {
-    padding-left: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    color: #666;
-  }
-
-  .nav-menu ul li {
-    text-align: center;
-    margin: auto 0 auto 0;
-    font-weight: 700;
-    padding: 10px;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: bold;
     font-family: "Roboto Condensed", sans-serif;
+    color: black;
   }
 
   .nav-menu-link:hover {
@@ -290,7 +330,8 @@
   }
 
   .fast-link {
-    font-size: 12px;
+    font-size: 13px;
+    line-height: 24px;
     font-weight: bold;
     font-family: "Roboto Condensed", sans-serif;
     color: black;
@@ -302,5 +343,32 @@
 
   .fast-link:hover {
     color: red;
+  }
+
+  .sponsor_img,
+  .sponsor,
+  .top_storie_img {
+    width: 300px;
+  }
+
+  .top_img {
+    width: 590px;
+  }
+
+  .myturn_img {
+    width: 160px;
+  }
+
+  .debate {
+    margin-right: 30px;
+  }
+
+  .opinion-info {
+    width: 190px;
+  }
+
+  .img-sub {
+    width: 42%;
+    height: 50%;
   }
 }
