@@ -2,22 +2,23 @@
 
 # Newsweeks clone
 
-Newsweeks clone that provide most news that you need to know in the easiest way .
+Newsweek's clone provides the most news that you need to know most easily.
 
 The next project is to check out more about Responsive design using bootstrap and how to apply mobile-first techniques, this website was created using bootstrap and good practices. We've included bootstrap and good practices to build, with responsive design, a simple website clone of newsweek.com
 
-Screenshots :
+Screenshots:
+
 Phone Version :
 
-![screenshot](./img/screenshot/phone.png)
+![screenshot](./img/mobilescreenshot.png)
 
 Tablet Version :
 
-![screenshot](./img/screenshot/tablet.png)
+![screenshot](./img/tabletscreenshot.png)
 
 Desktop Version :
 
-![screenshot](./img/screenshot/desktop.png)
+![screenshot](./img/desktopscreenshot.png)
 
 
 ## Built With 🔨
