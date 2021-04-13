@@ -31,6 +31,12 @@ h5 p {
   height: 40px;
 }
 
+.top_storie_category a {
+  font-size: 17px;
+  font-weight: 900;
+  color: #f72210;
+}
+
 h4 a:hover {
   color: #000;
   text-decoration: underline red 2px;
@@ -42,7 +48,6 @@ h4 a:hover {
   font-size: 14px;
 }
 
-.top_storie_category a,
 .top_storie_category a:hover {
   font-size: 17px;
   font-weight: 900;
