@@ -24,9 +24,17 @@ h5 p {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-h4 a:hover {
-  color: #000;
-  text-decoration: underline red 2px;
+.nav a {
+  text-decoration: none;
+  color: white;
+  width: 132px;
+  height: 40px;
+}
+
+.navtext-footer p a {
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 .top_storie_category a,
@@ -36,29 +44,21 @@ h4 a:hover {
   color: #f72210;
 }
 
-.navtext-footer p a {
-  color: #666;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-}
-
-.nav a {
-  text-decoration: none;
-  color: white;
-  width: 132px;
-  height: 40px;
-}
-
-.txt1 a:hover {
-  color: #000;
-  text-decoration: underline red 1px;
-}
-
 .nav a,
 .nav p {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 16px;
   font-weight: 400;
+}
+
+h4 a:hover {
+  color: #000;
+  text-decoration: underline red 2px;
+}
+
+.txt1 a:hover {
+  color: #000;
+  text-decoration: underline red 1px;
 }
 
 .top-nav-logo {
