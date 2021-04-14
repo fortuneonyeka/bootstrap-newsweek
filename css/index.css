@@ -63,6 +63,30 @@ h4 a:hover {
   font-weight: 400;
 }
 
+.txt2,
+.txt3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #f72210;
+}
+
+.txt2 {
+  cursor: pointer;
+}
+
+.txt4 a {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-decoration: none;
+}
+
+.txt4:hover {
+  background-color: #ccc;
+}
+
+.txt2:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
 .txt1 a:hover {
   color: #000;
   text-decoration: underline red 1px;
