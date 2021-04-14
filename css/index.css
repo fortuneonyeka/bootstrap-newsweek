@@ -1,0 +1,424 @@
+.nav {
+  background-color: #f72210;
+}
+
+h6,
+h4 a,
+h5 p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  color: #000;
+  letter-spacing: 0.5px;
+}
+
+.versus a {
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  padding: 3px;
+  position: absolute;
+  margin-top: -30px;
+}
+
+.magazin-category a {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.top_storie_category a {
+  font-size: 17px;
+  font-weight: 900;
+  color: #f72210;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  width: 132px;
+  height: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h4 a:hover {
+  color: #000;
+  text-decoration: underline red 2px;
+}
+
+.navtext-footer p a {
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.top_storie_category a:hover {
+  font-size: 17px;
+  font-weight: 900;
+  color: #f72210;
+}
+
+.nav p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.txt1 a:hover {
+  color: #000;
+  text-decoration: underline red 1px;
+}
+
+.top-nav-logo {
+  width: 115px;
+}
+
+.li-bg {
+  background-color: #f72210;
+}
+
+.list_icon {
+  width: 30px;
+}
+
+.profile_icon {
+  width: 25px;
+}
+
+.ul-list {
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.login {
+  display: none;
+}
+
+.login_img,
+.menu_img {
+  width: 21px;
+  height: 30px;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.nav-fast-link {
+  display: none;
+}
+
+.footer_logo {
+  width: 190px;
+}
+
+.footer-text span {
+  font-size: 12px;
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+h4 {
+  line-height: 24px;
+}
+
+.social_media_footer {
+  width: 26px;
+  border: 1px solid gray;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.social_media_footer:hover {
+  background-color: gray;
+}
+
+.top_storie_img {
+  width: 345px;
+}
+
+.top_img {
+  width: 345px;
+}
+
+.top_storie_category {
+  width: 80px;
+  position: absolute;
+  margin-top: -25px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.myturn_img {
+  width: 100px;
+}
+
+.myturn_img_phone {
+  width: 320px;
+}
+
+.morestories_img {
+  width: 100px;
+  height: 90px;
+}
+
+.sponsor_img,
+.sponsor {
+  width: 340px;
+}
+
+.sponsor_category {
+  width: 110px;
+  background-color: #ffffe6;
+  margin-top: -25px;
+}
+
+.the-debate-profile-img {
+  width: 20%;
+}
+
+.debate-info {
+  width: 78%;
+}
+
+.opinion-con {
+  height: 100px;
+}
+
+.opinion-img {
+  height: 80px;
+}
+
+.opinion-info {
+  width: 75%;
+}
+
+.signup {
+  width: 350px;
+  height: 200px;
+}
+
+.signup-card {
+  width: 280px;
+  height: 150px;
+}
+
+.sign-up-img {
+  width: 30px;
+  padding-top: 20px;
+  margin-left: 15px;
+}
+
+.sign-up-info {
+  width: 240px;
+  font-size: 15px;
+}
+
+.culture_category {
+  position: absolute;
+  margin-top: -23px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.magazin-category {
+  margin-top: -20px;
+}
+
+#one {
+  position: relative;
+  top: 50px;
+  right: 80px;
+}
+
+.img-sub {
+  width: 32%;
+  height: 350px;
+}
+
+.newsletter {
+  height: 350px;
+}
+
+@media screen and (min-width: 760px) {
+  .list_icon {
+    display: none;
+  }
+
+  .social_media {
+    text-align: right;
+  }
+
+  .sponsor {
+    width: 350px;
+  }
+
+  .sponsor_img {
+    width: 350px;
+  }
+
+  .sponsor_category {
+    width: 110px;
+    background-color: #ffffe6;
+    margin-top: -23px;
+  }
+
+  .signup {
+    background-color: #f4f5f6;
+  }
+
+  .sign-up-img {
+    width: 30px;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .sign-up-info {
+    width: 290px;
+    font-size: 19px;
+    color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 0 15px;
+  }
+
+  .sign-up-btn {
+    background-color: #f61602;
+    width: 200px;
+    margin-top: 8px;
+  }
+
+  .input-sign {
+    width: 200px;
+  }
+
+  .banner {
+    width: 100%;
+  }
+
+  .img-sub {
+    width: 36%;
+    height: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .top-nav-title {
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .top-nav-logo {
+    width: 395px;
+  }
+
+  .profile_icon,
+  .list_icon {
+    display: none;
+  }
+
+  .menu {
+    margin-top: 40px;
+  }
+
+  .ul-list {
+    margin-top: 20px;
+  }
+
+  .nav-menu-link {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+    color: black;
+  }
+
+  .nav-menu-link:hover {
+    color: red;
+  }
+
+  .login {
+    display: flex;
+    font-size: 12px;
+    line-height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+  }
+
+  .login a:hover {
+    color: black;
+  }
+
+  .nav_img {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    width: 100%;
+  }
+
+  .search {
+    width: 80px;
+    outline: none;
+    border: none;
+  }
+
+  .search_icon {
+    display: flex;
+    float: right;
+    position: relative;
+    height: 10px;
+    bottom: 18px;
+    left: 5px;
+  }
+
+  .nav-fast-link {
+    display: flex;
+    width: 90%;
+  }
+
+  .fast-link {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+    color: black;
+  }
+
+  .fast-link-item {
+    color: #6c757d;
+  }
+
+  .fast-link:hover {
+    color: red;
+  }
+
+  .sponsor_img,
+  .sponsor,
+  .top_storie_img {
+    width: 300px;
+  }
+
+  .top_img {
+    width: 590px;
+  }
+
+  .myturn_img {
+    width: 160px;
+  }
+
+  .debate {
+    margin-right: 30px;
+  }
+
+  .opinion-info {
+    width: 190px;
+  }
+
+  .img-sub {
+    width: 42%;
+    height: 50%;
+  }
+}
