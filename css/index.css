@@ -51,6 +51,11 @@ h4 a:hover {
   font-size: 14px;
 }
 
+.txt4 a {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-decoration: none;
+}
+
 .top_storie_category a:hover {
   font-size: 17px;
   font-weight: 900;
@@ -71,11 +76,6 @@ h4 a:hover {
 
 .txt2 {
   cursor: pointer;
-}
-
-.txt4 a {
-  font-family: 'Roboto Condensed', sans-serif;
-  text-decoration: none;
 }
 
 .txt4:hover {
