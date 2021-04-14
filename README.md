@@ -24,6 +24,7 @@ Desktop Version :
 ## Built With 🔨
 
 - HTML5
+- -CSS
 - Bootstrap
 - Visual Studio Code
 - Git & Github
