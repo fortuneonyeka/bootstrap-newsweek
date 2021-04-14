@@ -131,6 +131,11 @@ h4 a:hover {
   display: none;
 }
 
+.nav-fast-link ul li,
+.nav-fast-link0 ul li {
+  padding: 7px;
+}
+
 .footer_logo {
   width: 190px;
 }
