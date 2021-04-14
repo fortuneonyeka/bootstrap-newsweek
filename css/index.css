@@ -40,14 +40,14 @@ h5 p {
   font-weight: 400;
 }
 
-h4 a:hover {
-  color: #000;
-  text-decoration: underline red 2px;
-}
-
 .txt4 a {
   font-family: 'Roboto Condensed', sans-serif;
   text-decoration: none;
+}
+
+h4 a:hover {
+  color: #000;
+  text-decoration: underline red 2px;
 }
 
 .navtext-footer p a {
