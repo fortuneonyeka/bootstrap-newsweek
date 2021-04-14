@@ -45,15 +45,15 @@ h4 a:hover {
   text-decoration: underline red 2px;
 }
 
+.txt4 a {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-decoration: none;
+}
+
 .navtext-footer p a {
   color: #666;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
-}
-
-.txt4 a {
-  font-family: 'Roboto Condensed', sans-serif;
-  text-decoration: none;
 }
 
 .top_storie_category a:hover {
